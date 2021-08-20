@@ -128,7 +128,8 @@ override func viewDidLoad() {
 
 4. 결과
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d277cce3-7804-4265-88af-86006e0a9d62/스크린샷_2021-08-03_오후_4.06.33.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d277cce3-7804-4265-88af-86006e0a9d62/스크린샷_2021-08-03_오후_4.06.33.png)
+<img width="437" alt="스크린샷_2021-08-03_오후_4 06 33" src="https://user-images.githubusercontent.com/55241258/130205742-c1cbbd74-139a-44fc-a1e6-26e797071184.png">
+
 
 [[Swift] 넷플릭스 화면 따라만들기 (2)](https://leechamin.tistory.com/405)
 
