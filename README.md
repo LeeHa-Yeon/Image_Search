@@ -145,10 +145,10 @@ override func viewDidLoad() {
 
 - Request 파라미터
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c43aeab-e6eb-49b0-a280-7ee21712b7bc/스크린샷_2021-08-04_오전_3.29.51.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c43aeab-e6eb-49b0-a280-7ee21712b7bc/스크린샷_2021-08-04_오전_3.29.51.png)
+    <img width="793" alt="스크린샷_2021-08-04_오전_3 29 51" src="https://user-images.githubusercontent.com/55241258/130206617-289d791a-b2ed-468e-b259-426148e322ee.png">
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12006c68-e19a-46d2-b659-a344ab12cb6e/스크린샷_2021-08-04_오전_3.29.33.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12006c68-e19a-46d2-b659-a344ab12cb6e/스크린샷_2021-08-04_오전_3.29.33.png)
 
+    <img width="792" alt="스크린샷_2021-08-04_오전_3 29 33" src="https://user-images.githubusercontent.com/55241258/130206711-80514599-ca0f-495b-bf01-c70439a62fa6.png">
     → 코드
 
     query : 검색을 원하는 질의어
@@ -203,9 +203,9 @@ override func viewDidLoad() {
 
 - Response 파라미터
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0051d972-5646-44b5-957e-93e779742043/스크린샷_2021-08-04_오전_3.30.13.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0051d972-5646-44b5-957e-93e779742043/스크린샷_2021-08-04_오전_3.30.13.png)
+    <img width="790" alt="스크린샷_2021-08-04_오전_3 30 13" src="https://user-images.githubusercontent.com/55241258/130206762-69f96cd1-7b25-4bf4-aaca-a9badaa5b7b6.png">
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/87aa82db-ed2d-4944-8218-a0d3e9c20db2/스크린샷_2021-08-04_오전_3.30.22.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/87aa82db-ed2d-4944-8218-a0d3e9c20db2/스크린샷_2021-08-04_오전_3.30.22.png)
+    <img width="790" alt="스크린샷_2021-08-04_오전_3 30 22" src="https://user-images.githubusercontent.com/55241258/130206833-8b71bab7-dbd1-4e04-893a-274d3802d0e3.png">
 
     → 코드
 
