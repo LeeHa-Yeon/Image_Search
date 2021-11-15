@@ -1,26 +1,59 @@
 ## [목표]
 
-- search bar에 검색할 단어를 입력하고 수행하여 검색 결과를 띄워야 한다.
-
-    → SearchBar 이용
-
+- search bar에 검색할 단어를 입력하고 수행하여 검색 결과를 띄워야 한다. → SearchBar 이용
 - 이미지 검색 API가 필요 → 카카오 API 사용
-
-    [Kakao Developers](https://developers.kakao.com/docs/latest/ko/daum-search/dev-guide)
-
 - 검색 결과를 받아올 모델(Movie), Response가 필요하다.
 - 마지막으로 결과를 받아와서, collectionView에 띄워야 한다.
+- paging 처리
+- 이미지 셀 가변 개수 대응
+- 나중에 : 검색 → debounce 적용해보기
 
 ⇒ 즉, 서버에서 키워드로 검색을하고, 결과를 받아와서, 원하는 정보만 앱 내에 띄워주기
 
 ---
 
-- paging 처리
-- 이미지 셀 가변 개수 대응
-- 검색 → debounce 적용해보기
+# 목차
+- 진행시기 & 역할
+- Skills
+- Contributions
+- 상세 화면
+- 과정
 
 ---
 
+# 진행시기 & 역할
+- 진행시기 2021.08 ~ 2021.08
+- 1인 개인 
+
+---
+
+# Skills
+
+- 개발 환경 : Xcode
+- Swift , Kingfisher , Alamofire , Kakao Local API, Cocoapods, Github
+
+---
+# Contributions
+
+- 원하는 키워드로 검색하여 결과를 이미지 형태로 앱 내에 띄워주었습니다.
+- Kakao API 중 이미지 검색을 사용하여 네트워크 통신을 통해 이미지 로딩 기능을 구현하였습니다.
+- Postman을 이용하여 쉽고 빠르게 request, response 테스트를 하여 개발을 수월하게 진행하였습니다.
+
+- Alamofire를 사용하여 Rest API 통신 구현하였습니다.
+- 처음으로 API, Postman을 이용하여 네트워크 통신에 대해 익힐 수 있었습니다
+- Kingfisher를 통해 캐싱을 이용하여 서버를 통해 이미지를 바로 로드하였습니다.
+- API에서 검색 결과를 받아오기 위해서 Request과 Response 모델이 필요하여 만들었습니다.
+- 지금 상태에서 Debounce를 적용하여 성능 부분과 API 응답 비용을 해결하고자 합니다.
+
+---
+
+# 구현 화면
+
+<img width="754" alt="스크린샷 2021-11-15 오전 10 51 46" src="https://user-images.githubusercontent.com/55241258/141710020-1a7dcb25-008c-4b0d-95b2-12d1cbffda52.png">
+
+
+---
+# 과정
 ---
 
 # SearchBar 구성
@@ -41,16 +74,6 @@ override func viewDidLoad() {
 }
 ```
 
-1. 결과
-
-    [https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5b3fdb77-c283-4414-843d-0b6db6118958/화면_기록_2021-08-02_오후_7.15.56.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5b3fdb77-c283-4414-843d-0b6db6118958/화면_기록_2021-08-02_오후_7.15.56.mov)
-
-### 참고 자료
-
-[UISearchController in Swift 5 (Search Bar, Swift 5 Xcode 12) -2021 - iOS for Beginners](https://www.youtube.com/watch?v=Lb8aJa7J4BI)
-
----
-
 # CollectionView
 
 ## Storyboard
@@ -67,6 +90,7 @@ override func viewDidLoad() {
         @IBOutlet weak var ImageCollectionView: UICollectionView!
     		...
     }
+
     ```
 
 2. extension으로 UICollectionViewDataSource, UICollectionViewDelegate 따로 빼내어 가독성 높이기
@@ -130,8 +154,6 @@ override func viewDidLoad() {
 
 <img width="437" alt="스크린샷_2021-08-03_오후_4 06 33" src="https://user-images.githubusercontent.com/55241258/130205742-c1cbbd74-139a-44fc-a1e6-26e797071184.png">
 
-
-[[Swift] 넷플릭스 화면 따라만들기 (2)](https://leechamin.tistory.com/405)
 
 ---
 
